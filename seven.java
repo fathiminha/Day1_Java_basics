@@ -47,7 +47,7 @@ class EBook extends Book{
     }
 }
 
-public class Library{
+class Library{
     public static void main(String[] args){
         Book book1 = new PrintedBook("Java Basics", "John Doe", 300);
         Book book2 = new EBook("Python Guide", "Jane Smith", 2.5);
